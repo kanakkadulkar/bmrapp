@@ -1,0 +1,72 @@
+/* Container Styling */
+.bmr-info-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background to contrast with text */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: #001f3f; /* Navy blue text color */
+}
+
+/* Heading Styles */
+.bmr-info-container h2 {
+    font-size: 2em;
+    color: #001f3f; /* Navy blue */
+    margin-bottom: 20px;
+    border-bottom: 2px solid #001f3f;
+    padding-bottom: 10px;
+}
+
+.bmr-info-container h3 {
+    font-size: 1.5em;
+    color: #0074D9; /* Bright blue for subheadings */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph Styling */
+.bmr-info-container p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #333333; /* Dark gray for better readability */
+}
+
+/* Unordered List Styling */
+.bmr-info-container ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.bmr-info-container ul li {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #001f3f; /* Navy blue */
+}
+
+/* Strong Text Styling */
+.bmr-info-container strong {
+    font-weight: bold;
+    color: #001f3f; /* Navy blue */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .bmr-info-container {
+        padding: 15px;
+    }
+
+    .bmr-info-container h2 {
+        font-size: 1.8em;
+    }
+
+    .bmr-info-container h3 {
+        font-size: 1.3em;
+    }
+
+    .bmr-info-container p, .bmr-info-container ul li {
+        font-size: 0.95em;
+    }
+}

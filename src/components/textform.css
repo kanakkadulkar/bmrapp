@@ -1,0 +1,133 @@
+/* Flexbox container for form and table */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  /* Form Section Styling */
+  .form-container {
+    width: 45%; /* Adjust to balance form and table width */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Flexbox for form elements */
+  .row-flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Spacing between elements */
+  .gap-3 {
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  strong {
+    width: 100px;
+    font-weight: bold;
+    color: #001f3f;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 6px;
+    width: 150px;
+    border: 1px solid #001f3f;
+    border-radius: 4px;
+    outline: none;
+    background-color: #f0f4f8;
+    color: #001f3f;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #0074D9;
+  }
+  
+  /* Gender Radio Styling */
+  .M-f {
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+  
+  .M-l {
+    margin-right: 20px;
+    color: #001f3f;
+  }
+  
+  /* Button Styling */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+  }
+  
+  button.calculate {
+    background-color: #83be91; /* Green for Calculate */
+  }
+  
+  button.reset {
+    background-color: #c57d84; /* Red for Reset */
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Table Section Styling */
+  .table-container {
+    width: 45%; /* Adjust to balance form and table width */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #001f3f;
+    color: white;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .centered-radio {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+  }
+
+  .btn {
+    background-color: #007bff; /* Blue color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
