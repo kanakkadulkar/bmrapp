@@ -5,7 +5,7 @@ import About from './components/About';
 import Navbar from './components/Navbar';
 import Textform from './components/Textform';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Result from './components/Result';
+
 
 function App() {
   return (
