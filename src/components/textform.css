@@ -1,14 +1,14 @@
 /* Flexbox container for form and table */
 .flex-container {
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
-    align-items: flex-start;
+    max-width: max-content;
     padding: 20px;
   }
   
   /* Form Section Styling */
   .form-container {
-    width: 45%; /* Adjust to balance form and table width */
+    width: 100%; /* Adjust to balance form and table width */
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;
@@ -89,7 +89,7 @@
   
   /* Table Section Styling */
   .table-container {
-    width: 45%; /* Adjust to balance form and table width */
+    width: 100%; /* Adjust to balance form and table width */
   }
   
   table {

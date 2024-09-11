@@ -1,6 +1,6 @@
 /* Container Styling */
 .bmr-info-container {
-    max-width: 800px;
+    max-width: 100vh;
     margin: 0 auto;
     padding: 20px;
     background-color: #f9f9f9; /* Light background to contrast with text */
