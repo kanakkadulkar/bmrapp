@@ -171,7 +171,7 @@ export default function Textform() {
               </td>
             </tr>
             <tr>
-              <td>Moderate 1-3 times/week</td>
+              <td>Moderate 1 to 3 times/week</td>
               <td>{mod}</td>
               <td className="centered-radio">
                 <input
